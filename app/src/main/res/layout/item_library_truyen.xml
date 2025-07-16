@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+
+            <ImageView
+                android:id="@+id/iv_anh_bia_featured"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/default_avatar"
+                tools:ignore="ContentDescription" />
+
+            <!-- Tôi vẫn giữ lại nhãn "NEW CHAPTER" ở đây phòng khi bạn cần dùng -->
+            <TextView
+                android:id="@+id/tv_new_chapter_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_margin="8dp"
+                android:background="@drawable/badge_background"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="4dp"
+                android:text="NEW CHAPTER"
+                android:textColor="@android:color/white"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:ignore="SmallSp"
+                tools:visibility="visible"/>
+
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/tv_ten_truyen_featured"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yêu trong thành phố"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/tv_chuong_truyen_featured"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chương 1: Thành phố Hà Nội"
+            android:textColor="@color/grey"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

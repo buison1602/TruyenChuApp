@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Thanh tìm kiếm -->
+    <EditText
+        android:id="@+id/et_tim_kiem_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên truyện để tìm kiếm..."
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:drawablePadding="8dp"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:layout_alignParentTop="true"/>
+
+    <!-- Danh sách hiển thị kết quả -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_ket_qua_tim_kiem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/et_tim_kiem_activity"
+        android:layout_marginTop="16dp" />
+
+    <!-- Thông báo khi không có kết quả, mặc định sẽ ẩn -->
+    <TextView
+        android:id="@+id/tv_thong_bao_khong_tim_thay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Không tìm thấy truyện nào."
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

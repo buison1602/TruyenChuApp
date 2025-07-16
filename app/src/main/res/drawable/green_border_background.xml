@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File: res/drawable/green_border_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Màu nền bên trong viền, để trong suốt -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Định nghĩa cho đường viền -->
+    <stroke
+        android:width="2dp"
+        android:color="#2ac737" />
+
+    <!-- (Tùy chọn) Thêm bo góc cho viền -->
+    <corners android:radius="8dp" />
+
+</shape>

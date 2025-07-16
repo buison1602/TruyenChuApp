@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="8dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:background="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/btn_download_chapter">
+
+        <TextView
+            android:id="@+id/tv_ten_chuong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chapter 1: The Awakening"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/tv_ngay_dang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dec 15, 2023"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <!-- THAY ĐỔI: Sử dụng app:tint thay cho android:tint -->
+    <ImageButton
+        android:id="@+id/btn_download_chapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Tải chương này"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:src="@android:drawable/stat_sys_download"
+        app:tint="@android:color/darker_gray" />
+
+</RelativeLayout>

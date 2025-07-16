@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Báo lỗi"
+        android:textAppearance="?attr/textAppearanceTitleLarge"/>
+    <RadioGroup
+        android:id="@+id/rg_errors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+        <RadioButton android:id="@+id/rb_error_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Không có/thiếu nội dung"/>
+        <RadioButton android:id="@+id/rb_error_chapter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lặp chương"/>
+        <RadioButton android:id="@+id/rb_error_other" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Khác"/>
+    </RadioGroup>
+</LinearLayout>

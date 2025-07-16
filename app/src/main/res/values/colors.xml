@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Các màu mặc định của chủ đề -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#808080</color>
+    <color name="green">#24a425</color>
+
+
+    <!--
+    CÁC MÀU TÙY CHỈNH CỦA BẠN (Đã được hợp nhất và bổ sung)
+    -->
+    <color name="primary_blue">#3F51B5</color>
+    <color name="primary_green">#4CAF50</color>
+    <color name="facebook_blue">#1877F2</color>     <!-- Thêm màu xanh Facebook -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="divider_color">#E5E7EB</color>
+    <color name="border_color">#D1D5DB</color>      <!-- Thêm màu cho viền -->
+
+    <!-- Màu nền -->
+    <color name="background_color">#F5F5F7</color>
+    <color name="screen_background">#F5F5F7</color>
+
+</resources>

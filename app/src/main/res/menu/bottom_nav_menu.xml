@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:title="Trang chủ"
+        android:icon="@drawable/ic_home"/> <!-- Sử dụng icon mới -->
+
+    <item android:id="@+id/nav_categories"
+        android:title="Phân loại"
+        android:icon="@drawable/ic_category"/> <!-- Sử dụng icon mới -->
+
+    <item android:id="@+id/nav_community"
+        android:title="Cộng đồng"
+        android:icon="@drawable/ic_community"/> <!-- Sử dụng icon mới -->
+
+    <item android:id="@+id/nav_library"
+        android:title="Tủ truyện"
+        android:icon="@drawable/ic_library"/> <!-- Sử dụng icon mới -->
+
+    <item android:id="@+id/nav_profile"
+        android:title="Hồ sơ"
+        android:icon="@drawable/ic_profile"/> <!-- Sử dụng icon mới -->
+</menu>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TruyenChu</string>
+    <!-- Các string mới cần cho HomeFragment -->
+    <string name="notifications">Thông báo</string>
+    <string name="hero_title">Khám phá thế giới mới</string>
+    <string name="read_now">Đọc ngay</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="search_hint">Tìm kiếm truyện yêu thích...</string>
+    <string name="featured_content">Nội dung nổi bật</string>
+    <string name="recent_updates">Mới cập nhật</string>
+    <string name="see_all">Xem tất cả</string>
+    <string name="chat">Trò chuyện với AI</string>
+    <string name="book_cover">Ảnh bìa truyện</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    // -----------------------------------------------
+
+
+    <string name="already_have_account">Đã có tài khoản? <![CDATA[<b><a href="">Đăng nhập ngay</a></b>]]></string>
+    <string name="login_link_text">Đã có tài khoản? <![CDATA[<font color="#1877F2"><b>Đăng nhập ngay!</b></font>]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Navigation -->
+    <string name="home">Trang chủ</string>
+    <string name="categories">Phân loại</string>
+    <string name="library">Tủ sách</string>
+    <string name="profile">Hồ sơ</string>
+
+    <!-- Home Screen -->
+
+
+    <!-- Profile Screen -->
+    <string name="user_name">Người dùng</string>
+    <string name="user_email">user@example.com</string>
+    <string name="books_read">Sách đã đọc</string>
+    <string name="day_streak">Ngày liên tiếp</string>
+    <string name="followers">Người theo dõi</string>
+
+    <!-- Library Screen -->
+    <string name="reading">Đang đọc</string>
+    <string name="completed">Hoàn thành</string>
+    <string name="bookmarked">Đã lưu</string>
+
+    <!-- Common -->
+    <string name="filter">Lọc</string>
+    <string name="sort">Sắp xếp</string>
+    <string name="settings">Cài đặt</string>
+
+</resources>
